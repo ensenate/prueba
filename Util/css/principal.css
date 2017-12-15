@@ -1,0 +1,16 @@
+@import	url('imprimir-reportes.css');
+
+body{
+	background: #ecf0f1;
+}
+div h2{
+	color:#424949;
+	background: none;
+}
+
+div #busqueda-filtro{
+	background: white	;
+	width: auto;
+	max-width: 60em;
+	padding: 1em;
+}

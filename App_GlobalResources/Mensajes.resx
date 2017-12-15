@@ -1,0 +1,279 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Articulo_Asociado" xml:space="preserve">
+    <value>Este articulo esta asociado</value>
+  </data>
+  <data name="Bien_Articulo" xml:space="preserve">
+    <value>Se ha registrado el articulo correctamente</value>
+  </data>
+  <data name="Bien_Categoria" xml:space="preserve">
+    <value>Se ha registrado la categoria correctamente</value>
+  </data>
+  <data name="Bien_Control" xml:space="preserve">
+    <value>Se a registrado el elemento correctamente</value>
+  </data>
+  <data name="Bien_Cuenta" xml:space="preserve">
+    <value>Se ha registrado la cuenta correctamente</value>
+  </data>
+  <data name="Bien_Desgaste" xml:space="preserve">
+    <value>Se ha registrado el articulo correctamente</value>
+  </data>
+  <data name="Bien_Dominio" xml:space="preserve">
+    <value>Se a registrado el elemento correctamente</value>
+  </data>
+  <data name="Bien_Eliminar_Articulo" xml:space="preserve">
+    <value>Se pudo eliminar el articulo correctamente</value>
+  </data>
+  <data name="Bien_Eliminar_Dominio" xml:space="preserve">
+    <value>Se eliminar el elemento</value>
+  </data>
+  <data name="Bien_Empresa" xml:space="preserve">
+    <value>Se ha registrado la empresa correctamente</value>
+  </data>
+  <data name="Bien_Modelo" xml:space="preserve">
+    <value>Se ha registrardo corretamente el modelo</value>
+  </data>
+  <data name="Bien_Personal" xml:space="preserve">
+    <value>Se ha registrado el personal correctamente</value>
+  </data>
+  <data name="Categoria_Repetida" xml:space="preserve">
+    <value>Este nombre de categoria ya esta siendo usado por otra</value>
+  </data>
+  <data name="Clave_Diferente" xml:space="preserve">
+    <value>La clave y la conformacion debe ser iguales</value>
+  </data>
+  <data name="Clave_Requerida" xml:space="preserve">
+    <value>La clave no puede ser vacia</value>
+  </data>
+  <data name="Control_Asociado" xml:space="preserve">
+    <value>Este articulo ya esta asociado a otro</value>
+  </data>
+  <data name="Control_No_Encontrado" xml:space="preserve">
+    <value>No se encontro el un articulo con ese control</value>
+  </data>
+  <data name="Cuenta_Repetida" xml:space="preserve">
+    <value>Esa cuenta ya esta siendo usado por otro usuario</value>
+  </data>
+  <data name="Dominio_Uso" xml:space="preserve">
+    <value>No se puede eliminar el elemento porque esta sido usado</value>
+  </data>
+  <data name="Error_Articulo" xml:space="preserve">
+    <value>No se pudo registrar el articulo</value>
+  </data>
+  <data name="Error_Asociar" xml:space="preserve">
+    <value>Esta Categoria no permite asociar articulos</value>
+  </data>
+  <data name="Error_Categoria" xml:space="preserve">
+    <value>No se pudo registrar la categoria</value>
+  </data>
+  <data name="Error_Control" xml:space="preserve">
+    <value>No se pudo asociar el articulo con el control indicado</value>
+  </data>
+  <data name="Error_Cuenta" xml:space="preserve">
+    <value>No se pudo registrar la Cuenta</value>
+  </data>
+  <data name="Error_Desgaste" xml:space="preserve">
+    <value>No se pudo registrar el articulo</value>
+  </data>
+  <data name="Error_Dominio" xml:space="preserve">
+    <value>No se pudo registrar el elemento</value>
+  </data>
+  <data name="Error_Dominio_Eliminar" xml:space="preserve">
+    <value>No se  pudo eliminar el registro</value>
+  </data>
+  <data name="Error_Eliminar_Articulo" xml:space="preserve">
+    <value>No se pudo eliminar el articulo</value>
+  </data>
+  <data name="Error_Empresa" xml:space="preserve">
+    <value>No se pudo registrar la Empresa</value>
+  </data>
+  <data name="Error_Existencia" xml:space="preserve">
+    <value>No se pudo registrar el consumo</value>
+  </data>
+  <data name="Error_Historia" xml:space="preserve">
+    <value>No se pudo registrar la historia</value>
+  </data>
+  <data name="Error_Modelo" xml:space="preserve">
+    <value>No se pudo registrar el modelo</value>
+  </data>
+  <data name="Error_Personal" xml:space="preserve">
+    <value>No se pudo registrar el personal</value>
+  </data>
+  <data name="Error_Ubicacion" xml:space="preserve">
+    <value>No se pudo registrar la ubicacion</value>
+  </data>
+  <data name="Existencia_Positiva" xml:space="preserve">
+    <value>No puede dejar la existencia negativa</value>
+  </data>
+  <data name="Fecha_Invalidad" xml:space="preserve">
+    <value>Fecha Invalidad</value>
+  </data>
+  <data name="Modelo_Existente" xml:space="preserve">
+    <value>Ya existe ese modelo para esa marca</value>
+  </data>
+  <data name="Prefijo_Repetido" xml:space="preserve">
+    <value>Este prefijo ya esta siendo usado por otra categoria</value>
+  </data>
+  <data name="Repetido_Nombre" xml:space="preserve">
+    <value>Este nombre ya esta en uso</value>
+  </data>
+  <data name="Rif_Repetido" xml:space="preserve">
+    <value>Este Rif ya esta siendo usado por otro usuario</value>
+  </data>
+  <data name="Traslado_Automatico" xml:space="preserve">
+    <value>Traslado Automatico por Asociacion</value>
+  </data>
+  <data name="Ubicacion_Requerida" xml:space="preserve">
+    <value>La Ubicacion es Obligatoria</value>
+  </data>
+  <data name="Usuario_Cuenta" xml:space="preserve">
+    <value>El usuario ya tiene una cuenta asociada</value>
+  </data>
+  <data name="Error_Conteo" xml:space="preserve">
+    <value>No se pudo registrar el conteo correctamante</value>
+  </data>
+  <data name="Error_Descontinuar" xml:space="preserve">
+    <value>No se pudo descontinuar el articulo</value>
+  </data>
+  <data name="Error_Mover_Asociados" xml:space="preserve">
+    <value>Error al momento de trasladar los articulos asociados</value>
+  </data>
+  <data name="Error_Agregar_Mantenimiento" xml:space="preserve">
+    <value>Ocurrio un error al momento de realizar la solicitud</value>
+  </data>
+  <data name="Articulo_Mantenimiento" xml:space="preserve">
+    <value>El articulo ya esta en un mantenimiento</value>
+  </data>
+  <data name="Error_Recepcion" xml:space="preserve">
+    <value>No  se pudo realizar la recepcion del articulo</value>
+  </data>
+  <data name="Error_Diagnostico" xml:space="preserve">
+    <value>Ocurrio un error al momento de realizar el diagnostico</value>
+  </data>
+  <data name="Error_Soporte_Externo" xml:space="preserve">
+    <value>Ocurrio un error al momento de realizar la operacion</value>
+  </data>
+  <data name="Imagen_Articulo" xml:space="preserve">
+    <value>Se registro el articulo pero no se pudo cargar la imagen</value>
+  </data>
+  <data name="Error_Categoria_Imagen" xml:space="preserve">
+    <value>Se creo la categoria pero no se pudo cargar la imagen</value>
+  </data>
+</root>

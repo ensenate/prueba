@@ -1,0 +1,44 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+   
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head  runat="server">
+    <title>Sumi Store</title>
+       
+   
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    <link rel="icon" href="<%=ResolveUrl("~/favicon.ico")%>"  type="image/ico"/>
+
+    <link rel="stylesheet" href="<%=ResolveUrl("~/Util/css/ui-lightness/jquery-ui-1.8.23.custom.css")%>"  /> 
+    <link rel="stylesheet" href="<%=ResolveUrl("~/Util/css/general.css")%>"  />
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.9.2/themes/base/jquery-ui.css" />
+    
+    <script src="<%=ResolveUrl("~/Util/js/jquery-1.8.0.min.js")%>" language="javascript" type="text/javascript"></script> 
+    <script src="<%=ResolveUrl("~/Util/js/jquery-ui-1.8.23.custom.min.js")%>" language="javascript" type="text/javascript"></script> 
+    <script src="<%=ResolveUrl("~/Util/js/jquery.ui.datepicker-es.js")%>" language="javascript" type="text/javascript"></script> 
+	<script src="<%=ResolveUrl("~/Util/js/jquery.qtip-1.0.0-rc3.min.js")%>" language="javascript" type="text/javascript"></script> 
+    <script src="<%=ResolveUrl("~/Util/js/Script.js")%>" language="javascript" type="text/javascript"></script>
+    <script src="http://code.jquery.com/jquery-1.8.3.js" language="javascript" type="text/javascript"></script>
+    <script src="http://code.jquery.com/ui/1.9.2/jquery-ui.js" language="javascript" type="text/javascript"></script>
+    
+    <script src="<%=ResolveUrl("~/Util/FancyBox/jquery.fancybox.js")%>"  language="javascript" type="text/javascript"></script>
+    <link rel="stylesheet" href="<%=ResolveUrl("~/Util/FancyBox/jquery.fancybox.css")%>" type="text/css" media="screen" />
+
+    
+    </asp:ContentPlaceHolder>
+
+  </head>
+<body>
+
+<form id="form1" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+   
+        </asp:ContentPlaceHolder>
+    </div>
+</form>
+</body>
+</html>
